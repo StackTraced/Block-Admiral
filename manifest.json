@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Block Admiral",
+  "version": "1.2",
+  "description": "Blocks Admiral Anti-Adblock Popups",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://*.eventexistence.com/*",
+    "https://eventexistence.com/*",
+    "http://*.eventexistence.com/*",
+    "http://eventexistence.com/*",
+    "https://*.getadmiral.com/*",
+    "https://getadmiral.com/*",
+    "http://*.getadmiral.com/*",
+    "http://getadmiral.com/*",
+    "https://*.merequartz.com/*",
+    "https://merequartz.com/*",
+    "http://*.merequartz.com/*",
+    "http://merequartz.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
