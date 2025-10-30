@@ -1,4 +1,4 @@
-# Block Admiral Anit Adblock everywhere
+# Block Admiral Anti-Adblock everywhere
 
 A lightweight Chrome extension that blocks Admiral:
 - `eventexistence.com`
